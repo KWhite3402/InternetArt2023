@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navBar ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: blueviolet;
+   position: fixed; 
+   top: 0;
+   width: 100%;
+}
+
