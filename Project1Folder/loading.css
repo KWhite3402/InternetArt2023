@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: rgb(14, 18, 34);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 129, 5);
+    white-space: nowrap;
+}
+
+/*. container {
+    display: inline-block;
+} */
+
+.typed-out {
+    overflow: hidden;
+    border-right: 0.15em greenyellow;
+    font-size: 30px;
+    width: 0;
+    animation-name: typing;
+    animation-duration: 5s;
+}
+
+.delay1 {
+    overflow: hidden;
+    font-size: 30px;
+    width: 0;
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+.delay2 {
+    overflow: hidden;
+    font-size: 30px;
+    width: 0;
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-delay: 6s;
+}
+@keyframes typing {
+    from{width: 0}
+    to{width: 100%}
+}
