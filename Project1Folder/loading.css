@@ -17,16 +17,14 @@
     border-right: 0.15em greenyellow;
     font-size: 30px;
     width: 0;
-    animation-name: typing;
-    animation-duration: 5s;
+    animation: typing 5s steps(100, end) forwards;
 }
 
 .delay1 {
     overflow: hidden;
     font-size: 30px;
     width: 0;
-    animation-name: typing;
-    animation-duration: 5s;
+    animation: typing 5s steps(100, end) forwards;
     animation-delay: 3s;
 }
 
@@ -34,8 +32,7 @@
     overflow: hidden;
     font-size: 30px;
     width: 0;
-    animation-name: typing;
-    animation-duration: 5s;
+    animation: typing 5s steps(100, end) forwards;
     animation-delay: 6s;
 }
 @keyframes typing {
