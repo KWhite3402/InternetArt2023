@@ -2,5 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    background: url(Techspiral.png) no-repeat center fixed;
+    background-size: cover;
     background-color: rgb(14, 18, 34);
 }
