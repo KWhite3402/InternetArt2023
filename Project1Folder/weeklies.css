@@ -7,3 +7,12 @@
     color: greenyellow;
 }
 
+div{
+outline-style: dashed;
+padding: 20px;
+display:none;
+}
+
+li:hover + div{
+    display:block;
+}

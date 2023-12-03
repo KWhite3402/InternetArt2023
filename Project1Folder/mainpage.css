@@ -6,3 +6,42 @@
     background-size: cover;
     background-color: rgb(14, 18, 34);
 }
+
+div1{
+    position: absolute; left: 350px; top: 130px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+div2{
+    position: absolute; right:300px; top: 100px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+div3{
+    position: absolute; left: 300px; top: 450px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+div4{
+    position: absolute; right: 300px; top: 550px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.bounce:hover{
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
