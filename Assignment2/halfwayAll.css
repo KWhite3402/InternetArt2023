@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /*line-height: 800px;*/
+    text-decoration: none;
+    height:2500px;
+    background: linear-gradient(rgb(83, 107, 227),rgb(255, 153, 0));
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 500px;
+    font-size: 80px;
+    a:link{
+        text-decoration: none;
+        color:yellow
+    }
+    a:visited{
+        color: none;
+    }
+    a:hover{
+        color:rgb(255, 170, 0);
+    }
+    a:active{
+        color:yellow;
+    }
+}
+
+.poem{
+    height: fit-content;
+    font-size: 40px;
+    background: linear-gradient(rgb(255,153,0),rgb(83, 107, 227) );
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.poem3{
+    height: fit-content;
+    font-size: 40px;
+    background: linear-gradient(rgb(255,153,0),rgb(83, 107, 227) );
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.poem4{
+    height: fit-content;
+    font-size: 40px;
+    background: linear-gradient(rgb(255,153,0),rgb(83, 107, 227) );
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    text-shadow: 2px 2px 5px rgb(100, 73, 220);
+}
+
+.poem5{
+    height: 800px;
+    width:fit-content;
+    font-size: 40px;
+    background: linear-gradient(rgb(255,153,0),rgb(83, 107, 227) );
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    text-shadow: 2px 2px 5px rgb(100, 73, 220);
+    writing-mode:sideways-rl;
+}
+
+.water{
+    color: rgb(113, 190, 246);
+}
+
+.flying{
+    margin-bottom: 3%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.silence{
+    color: rgba(196, 240, 240, 0.503);
+    text-decoration: line-through;
+}
+
+.down{
+    writing-mode: vertical-rl;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
